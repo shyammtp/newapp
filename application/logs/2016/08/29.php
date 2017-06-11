@@ -1,0 +1,47 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2016-08-29 20:15:46 --- EMERGENCY: ErrorException [ 2 ]: Invalid argument supplied for foreach() ~ MODPATH/core/classes/Model/Core/Timings.php [ 63 ] in /var/www/vhosts/Tabibakjo/modules/core/classes/Model/Core/Timings.php:63
+2016-08-29 20:15:46 --- DEBUG: #0 /var/www/vhosts/Tabibakjo/modules/core/classes/Model/Core/Timings.php(63): Kohana_Core::error_handler(2, 'Invalid argumen...', '/var/www/vhosts...', 63, Array)
+#1 /var/www/vhosts/Tabibakjo/application/classes/Model/Api/Profile.php(75): Model_Core_Timings->collectTimings(Array)
+#2 /var/www/vhosts/Tabibakjo/application/classes/Controller/Api/Profile.php(129): Model_Api_Profile->updateTimings()
+#3 /var/www/vhosts/Tabibakjo/system/classes/Kohana/Controller.php(83): Controller_Api_Profile->action_update()
+#4 [internal function]: Kohana_Controller->execute()
+#5 /var/www/vhosts/Tabibakjo/system/classes/Kohana/Request/Client/Internal.php(98): ReflectionMethod->invoke(Object(Controller_Api_Profile))
+#6 /var/www/vhosts/Tabibakjo/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 /var/www/vhosts/Tabibakjo/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 /var/www/vhosts/Tabibakjo/modules/core/classes/Request.php(48): Kohana_Request->execute()
+#9 /var/www/vhosts/Tabibakjo/modules/core/classes/Kohana/App.php(398): Request->execute()
+#10 /var/www/vhosts/Tabibakjo/modules/core/classes/Kohana/App.php(391): Kohana_App->sendResponse()
+#11 /var/www/vhosts/Tabibakjo/modules/core/classes/Kohana/App.php(382): Kohana_App->run(Array)
+#12 /var/www/vhosts/Tabibakjo/api/index.php(120): Kohana_App::execute()
+#13 {main} in /var/www/vhosts/Tabibakjo/modules/core/classes/Model/Core/Timings.php:63
+2016-08-29 20:15:52 --- EMERGENCY: ErrorException [ 2 ]: Invalid argument supplied for foreach() ~ MODPATH/core/classes/Model/Core/Timings.php [ 63 ] in /var/www/vhosts/Tabibakjo/modules/core/classes/Model/Core/Timings.php:63
+2016-08-29 20:15:52 --- DEBUG: #0 /var/www/vhosts/Tabibakjo/modules/core/classes/Model/Core/Timings.php(63): Kohana_Core::error_handler(2, 'Invalid argumen...', '/var/www/vhosts...', 63, Array)
+#1 /var/www/vhosts/Tabibakjo/application/classes/Model/Api/Profile.php(75): Model_Core_Timings->collectTimings(Array)
+#2 /var/www/vhosts/Tabibakjo/application/classes/Controller/Api/Profile.php(129): Model_Api_Profile->updateTimings()
+#3 /var/www/vhosts/Tabibakjo/system/classes/Kohana/Controller.php(83): Controller_Api_Profile->action_update()
+#4 [internal function]: Kohana_Controller->execute()
+#5 /var/www/vhosts/Tabibakjo/system/classes/Kohana/Request/Client/Internal.php(98): ReflectionMethod->invoke(Object(Controller_Api_Profile))
+#6 /var/www/vhosts/Tabibakjo/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 /var/www/vhosts/Tabibakjo/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 /var/www/vhosts/Tabibakjo/modules/core/classes/Request.php(48): Kohana_Request->execute()
+#9 /var/www/vhosts/Tabibakjo/modules/core/classes/Kohana/App.php(398): Request->execute()
+#10 /var/www/vhosts/Tabibakjo/modules/core/classes/Kohana/App.php(391): Kohana_App->sendResponse()
+#11 /var/www/vhosts/Tabibakjo/modules/core/classes/Kohana/App.php(382): Kohana_App->run(Array)
+#12 /var/www/vhosts/Tabibakjo/api/index.php(120): Kohana_App::execute()
+#13 {main} in /var/www/vhosts/Tabibakjo/modules/core/classes/Model/Core/Timings.php:63
+2016-08-29 20:15:53 --- EMERGENCY: ErrorException [ 2 ]: Invalid argument supplied for foreach() ~ MODPATH/core/classes/Model/Core/Timings.php [ 63 ] in /var/www/vhosts/Tabibakjo/modules/core/classes/Model/Core/Timings.php:63
+2016-08-29 20:15:53 --- DEBUG: #0 /var/www/vhosts/Tabibakjo/modules/core/classes/Model/Core/Timings.php(63): Kohana_Core::error_handler(2, 'Invalid argumen...', '/var/www/vhosts...', 63, Array)
+#1 /var/www/vhosts/Tabibakjo/application/classes/Model/Api/Profile.php(75): Model_Core_Timings->collectTimings(Array)
+#2 /var/www/vhosts/Tabibakjo/application/classes/Controller/Api/Profile.php(129): Model_Api_Profile->updateTimings()
+#3 /var/www/vhosts/Tabibakjo/system/classes/Kohana/Controller.php(83): Controller_Api_Profile->action_update()
+#4 [internal function]: Kohana_Controller->execute()
+#5 /var/www/vhosts/Tabibakjo/system/classes/Kohana/Request/Client/Internal.php(98): ReflectionMethod->invoke(Object(Controller_Api_Profile))
+#6 /var/www/vhosts/Tabibakjo/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 /var/www/vhosts/Tabibakjo/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 /var/www/vhosts/Tabibakjo/modules/core/classes/Request.php(48): Kohana_Request->execute()
+#9 /var/www/vhosts/Tabibakjo/modules/core/classes/Kohana/App.php(398): Request->execute()
+#10 /var/www/vhosts/Tabibakjo/modules/core/classes/Kohana/App.php(391): Kohana_App->sendResponse()
+#11 /var/www/vhosts/Tabibakjo/modules/core/classes/Kohana/App.php(382): Kohana_App->run(Array)
+#12 /var/www/vhosts/Tabibakjo/api/index.php(120): Kohana_App::execute()
+#13 {main} in /var/www/vhosts/Tabibakjo/modules/core/classes/Model/Core/Timings.php:63
